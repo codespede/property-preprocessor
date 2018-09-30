@@ -5,6 +5,7 @@
  * @copyright Copyright &copy; Mahesh S Warrier, 2018
  * @version   1.0.0
  */
+namespace traits;
 /**
  * Trait PreProcessorTrait
  * @package codespede\yii2-formatter
