@@ -3,7 +3,7 @@ This is a simple yet powerful trait which allows one to easily pre-process the p
 
 Installation
 ------------
-The preferred way to install this extension is to click the 'Clone or Download' button at the top-right of this page and then click 'Download Zip'.
+The preferred way to install this extension is to [click here](https://github.com/codespede/property-preprocessor/archive/master.zip) which will download the package as a zip file. Instructions on how to use it is explained below.
 
 How to use
 ----------
