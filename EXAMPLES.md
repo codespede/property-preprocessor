@@ -5,7 +5,7 @@ As mentioned in the example [here](https://github.com/codespede/property-preproc
 For example, if you have a fixed date format for your application and you need all dates to be shown in that format everywhere. You can define the following method in `PreProcessorTrait`:
 ```
 public function getDateFormatted($value){
-		return date('d-m-Y', $value);
+    return date('d-m-Y', $value);
 }
 ```
 This will enable you to access the formatted value like: `$object->addedOnDateFormatted`, `$object->orderedOnDateFormatted` etc.(provided that `dateAdded` and `dateOrdered` are accessible from `$object`).
@@ -19,7 +19,7 @@ For example, you need to convert the images returned from any object to PNG. You
 ```
 public function getToPNG($image){
     //logic to convert $image to PNG..
-		return $convertedImage;
+    return $convertedImage;
 }
 ```
 This will enable you to access the PNG version of any image like: `$product->mainImageToPNG`, `$customer->profilePicToPNG` etc.(provided that `mainImage` and `profilePic` are accessible from `$product` and `$customer` respectively).
