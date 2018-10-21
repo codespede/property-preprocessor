@@ -8,7 +8,7 @@
 namespace traits;
 /**
  * Trait PreProcessorTrait
- * @package codespede\yii2-formatter
+ * @package codespede\property-preprocessor
  */
 trait PreProcessorTrait{
     private $methods;
